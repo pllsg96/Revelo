@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  db:
+    container_name: mvc_db
+    image: mysql:8.0.23
+    environment:
+      MYSQL_ROOT_USER: root
+      MYSQL_DATABASE: mvc_db
+      MYSQL_ROOT_PASSWORD: senhadificil
+    ports:
+      - 3306:3306

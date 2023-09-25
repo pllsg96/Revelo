@@ -1,0 +1,16 @@
+<!-- views/contatosView.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Contatos</title>
+</head>
+<body>
+  <h1>Lista de Contatos</h1>
+  <ul>
+    <% contatos.forEach(function(contato) { %>
+      <li><%= contato.nome %>: <%= contato.telefone %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
+

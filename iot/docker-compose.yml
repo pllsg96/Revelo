@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: meu-mysql-container
+    environment:
+      MYSQL_DB_NAME: esp32db
+      MYSQL_ROOT_PASSWORD: senhadificil
+    ports:
+      - "3306:3306"

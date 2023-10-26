@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "senhadificil",
+    "database": "esp32db",
+    "host": "0.0.0.0",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "senhadificil",
+    "database": "esp32db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "productionpassword",
+    "database": "esp32db",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
